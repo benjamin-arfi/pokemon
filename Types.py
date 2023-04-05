@@ -12,6 +12,7 @@ class Type(Pokemon):
                         "glace":{ "point_de_vie":17 , "niveau": 1 , "defense": 3 , "puissance_attaque": 10,"fort":"electrique","faible":"feu"},
                         "fight":{ "point_de_vie":13 , "niveau": 1 , "defense": 3 , "puissance_attaque": 9,"fort":"glace","faible":"electrique"},
                         "poisson":{ "point_de_vie":11 , "niveau": 1 , "defense": 3 , "puissance_attaque": 8,"fort":"terre","faible":"eau"},
+                        "plante": { "point_de_vie":10 , "niveau": 1 , "defense": 2 , "puissance_attaque": 7,"fort":"terre","faible":"eau"},
                         "volant":{ "point_de_vie":17 , "niveau": 1 , "defense": 4 , "puissance_attaque": 3,"fort":"eau","faible":"glace"}
                         }
 

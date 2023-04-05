@@ -1,5 +1,7 @@
 from Types import *
 from combat import *
+
+input("demarer le jeu")
 print("presentation de mes pokemon")
 bulbizare = Type("bulbizare","feu","electrique")
 bulbizare.afficher_pokemon()
@@ -27,3 +29,5 @@ print("pour lancer le combat  entre pikachu et carapuce appuyez sur enter ")
 combat =input("lancer le combat")
 combat2 = Combat(pikachu, Carapuce)
 combat2.combat() 
+
+

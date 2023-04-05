@@ -44,7 +44,3 @@ class PokemonGUI:
         root = tk.Tk()
         combat_gui = CombatGUI(root, selected_pokemon,Type("feunard", "glace","eau") )
         root.mainloop()
-root = tk.Tk()
-root.title("Combat Pokémon")
-fenetre = PokemonGUI(root)
-root.mainloop()

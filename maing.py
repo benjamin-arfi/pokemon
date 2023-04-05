@@ -6,6 +6,5 @@ from slepok import*
 root = tk.Tk()
 root.title("Combat Pokémon")
 fenetre = PokemonGUI(root)
-root.destroy()
 root.mainloop()
 
